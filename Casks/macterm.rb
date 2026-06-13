@@ -1,6 +1,6 @@
 cask "macterm" do
-  version "1.16.1"
-  sha256 "4708e82ecfadf0a782979b660d7752652538461bec2b95db20673407d58f9351"
+  version "1.17.0"
+  sha256 "b8eca4423bde4d47262e0c3bf3593b1ebf48636c60f517857f84476173d698a2"
 
   url "https://github.com/thdxg/macterm/releases/download/v#{version}/Macterm-#{version}.dmg"
   name "Macterm"
