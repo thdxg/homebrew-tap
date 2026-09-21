@@ -21,7 +21,7 @@ cask "macterm" do
   # the quarantine xattr, first launch hits a Gatekeeper block that requires a
   # right-click → Open. Sparkle auto-updates after install bypass Gatekeeper
   # because they're verified against an EdDSA signature baked into the app.
-  postflight do
+  postflight_steps do
     system_command "/usr/bin/xattr",
                    args: ["-dr", "com.apple.quarantine", "#{appdir}/Macterm.app"],
                    sudo: false
