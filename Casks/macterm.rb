@@ -5,7 +5,7 @@ cask "macterm" do
   url "https://github.com/thdxg/macterm/releases/download/v#{version}/Macterm-#{version}.dmg"
   name "Macterm"
   desc "Native terminal built with SwiftUI and libghostty"
-  homepage "https://github.com/thdxg/macterm"
+  homepage "https://macterm.thdxg.dev/"
 
   livecheck do
     url :url
